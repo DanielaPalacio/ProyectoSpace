@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bellefair&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    background-image: url("/root/img/background-home-desktop.jpg");
+    color: white;
+    background-size:cover;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    display: inline;
+    position: relative;
+    top: 67px;
+    left:-520px;
+    border-radius: 25px;
+}
+.home-header {
+    display: flex;
+    justify-content:flex-end;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    margin-left: 5rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    gap: 3px; 
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    width:56%;
+}
+
+.links-container:before{
+    content: "";
+    height: 2px;
+    width: 62%;
+    position: absolute;
+    background-color: rgba(152, 150, 150, 0.397);
+    margin-left: -62%;
+    bottom: 34px;
+}
+
+#section-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 13rem;
+    margin-left: 10rem;
+}
+
+.first-paragraph{
+    font-size: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1{
+    font-size: 130px;
+    margin-bottom: 0.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.second-paragraph{
+    font-size: 13px;
+    width: 27%;
+    text-align: justify;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5rem;
+}
+
+#button-explore{
+    width: 200px;
+    height: 200px;
+    display: inline;
+    position: relative;
+    border-radius: 100px;
+    top: -220px;
+    left: 930px;
+    font-family: 'Bellefair', serif;
+    font-size: 20px;
+    font-weight: 50%;
+    border-style: none;
+    box-shadow: inset 20px 10px 10px rgba(207, 205, 205, 0.397);
+}
