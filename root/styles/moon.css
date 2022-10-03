@@ -61,12 +61,12 @@ body {
 
 .moon__background {
   width: 100vw;
-  height: 99vh;
+  height: 99.69vh;
 }
 
 .moon__image {
-  width: 450px;
-  height: 450px;
+  width: 28vw;
+  height: 59vh;
 }
 
 .moon__div_general {
@@ -76,15 +76,15 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-margin-before: -60vh;
-          margin-block-start: -60vh;
-  -webkit-padding-start: 20vw;
-          padding-inline-start: 20vw;
+  -webkit-margin-before: -70vh;
+          margin-block-start: -70vh;
+  -webkit-padding-start: 10vw;
+          padding-inline-start: 10vw;
 }
 
 .moon__text {
-  -webkit-padding-start: 250px;
-          padding-inline-start: 250px;
+  -webkit-padding-start: 10vw;
+          padding-inline-start: 10vw;
   color: var(--title_Color);
   gap: 20px;
 }
@@ -96,7 +96,7 @@ body {
 
 .moon__title {
   font-family: 'Bellefair', serif;
-  font-size: 6rem;
+  font-size: 4rem;
   color: var(--title_Color);
   margin: 0 auto;
 }
@@ -104,7 +104,7 @@ body {
 .moon__textContent {
   font-family: 'Barlow', sans-serif;
   line-height: 40px;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: var(--text_Color);
 }
 
