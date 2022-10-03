@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bellefair&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap");
+:root {
+  --title_Color: #FFFFFF;
+  --text_Color: #D0D6F9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  z-index: -1;
+}
+
+.nav {
+  z-index: 1;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5vh;
+  width: 100vw;
+  height: 12vh;
+}
+
+.nav__logo {
+  -webkit-padding-start: 5%;
+          padding-inline-start: 5%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 3%;
+}
+
+.nav__div {
+  background-color: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(40.7742px);
+          backdrop-filter: blur(40.7742px);
+  width: 55vw;
+}
+
+.nav__line {
+  z-index: 2;
+  position: absolute;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-margin-start: 350px;
+          margin-inline-start: 350px;
+  height: 2px;
+  width: 750px;
+  background-color: #FFFFFF;
+  opacity: 0.25;
+}
+
+.titan__background {
+  width: 100vw;
+  height: 99.69vh;
+}
+
+.titan__image {
+  width: 28vw;
+  height: 59vh;
+}
+
+.titan__div_general {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-margin-before: -70vh;
+          margin-block-start: -70vh;
+  -webkit-padding-start: 10vw;
+          padding-inline-start: 10vw;
+}
+
+.titan__text {
+  -webkit-padding-start: 10vw;
+          padding-inline-start: 10vw;
+  color: var(--title_Color);
+  gap: 20px;
+}
+
+.titan__mini_rectangle {
+  font-weight: bold;
+  color: var(--title_Color);
+  -webkit-margin-start: 32%;
+          margin-inline-start: 32%;
+}
+
+.titan__title {
+  font-family: 'Bellefair', serif;
+  font-size: 4rem;
+  color: var(--title_Color);
+  margin: 0 auto;
+}
+
+.titan__textContent {
+  font-family: 'Barlow', sans-serif;
+  line-height: 40px;
+  font-size: 1.2rem;
+  color: var(--text_Color);
+}
+
+.titan__rectangle {
+  color: var(--title_Color);
+}
+
+.titan__numbers {
+  font-family: 'Bellefair', serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 200px;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=titan.css.map */
