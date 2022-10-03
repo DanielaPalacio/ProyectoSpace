@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bellefair&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap');
+
+
+:root{
+    --title_Color: #FFFFFF;
+    --text_Color: #D0D6F9;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    z-index: -1;
+}
+
+
+.nav{
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 5vh;
+  width: 100vw;
+
+  height: 12vh;
+  &__logo{
+
+    padding-inline-start: 5%;
+    align-self: center;
+    width: 3%;
+  }
+  &__div{
+   background-color: rgba(255, 255, 255, 0.04);
+   backdrop-filter: blur(40.7742px);
+   width: 55vw;
+  }
+  &__line{
+    z-index: 2;
+    position: absolute;
+    align-self: center;
+    margin-inline-start: 350px;
+    height: 2px;
+    width: 750px;
+    background-color: #FFFFFF;
+    opacity: 0.25;
+  }
+}
+
+.titan{
+    &__background{
+        width: 100vw;
+        height: 99.69vh;
+    }
+    &__image{
+        width: 28vw;
+        height: 59vh;
+    }
+    &__div_general{
+        margin: 0 auto;
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        margin-block-start: -70vh;
+        padding-inline-start: 10vw;
+
+    }
+    &__text{
+        padding-inline-start: 10vw;
+
+        color: var(--title_Color);
+        gap: 20px;
+    }
+    &__mini_rectangle{
+        font-weight: bold;
+        color: var(--title_Color);
+        margin-inline-start: 32%;
+    }
+    &__title{
+        font-family: 'Bellefair', serif;
+        font-size: 4rem;
+        color: var(--title_Color);
+        margin: 0 auto;
+    }
+    &__textContent{
+        font-family: 'Barlow', sans-serif;
+        line-height: 40px;
+        font-size: 1.2rem;
+        color: var(--text_Color);
+    }
+    &__rectangle{
+        color: var(--title_Color);
+
+    }
+    &__numbers{
+        font-family: 'Bellefair', serif;
+        display: flex;
+        gap: 200px;
+        font-size: 2rem;
+    }
+
+
+}
+
