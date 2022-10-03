@@ -22,9 +22,11 @@ body{
   position: absolute;
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+//   margin-top: 50px;
+  margin-top: 5vh;
   width: 100vw;
-  height: 150px;
+//   height: 150px;
+  height: 12vh;
   &__logo{
     padding-inline-start: 5%;
     align-self: center;
@@ -50,7 +52,8 @@ body{
 .moon{
     &__background{
         width: 100vw;
-        height: 100vh;
+        // height: 100vh;
+        height: 99vh;
     }
     &__image{
         width: 450px;
@@ -61,8 +64,10 @@ body{
         position: absolute;
         z-index: 1;
         display: flex;
-        margin-block-start: -570px;
-        padding-inline-start: 350px;
+        margin-block-start: -60vh;
+        padding-inline-start: 20vw;
+        // margin-block-start: -570px;
+        // padding-inline-start: 350px;
     }
     &__text{
         padding-inline-start: 250px;

@@ -24,9 +24,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 5vh;
   width: 100vw;
-  height: 150px;
+  height: 12vh;
 }
 
 .nav__logo {
@@ -61,7 +61,7 @@ body {
 
 .moon__background {
   width: 100vw;
-  height: 100vh;
+  height: 99vh;
 }
 
 .moon__image {
@@ -76,10 +76,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-margin-before: -570px;
-          margin-block-start: -570px;
-  -webkit-padding-start: 350px;
-          padding-inline-start: 350px;
+  -webkit-margin-before: -60vh;
+          margin-block-start: -60vh;
+  -webkit-padding-start: 20vw;
+          padding-inline-start: 20vw;
 }
 
 .moon__text {
