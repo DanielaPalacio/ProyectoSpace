@@ -10,8 +10,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
-  z-index: -1;
+  overflow: hidden;
 }
 
 .nav {
@@ -46,16 +45,12 @@ body {
   background-color: #FFFFFF;
   opacity: 0.25;
 }
-
-.titan__background {
+.about-information__background {
   width: 100vw;
-  height: 99.69vh;
+  height: 100vh;
+  background-size: cover;
 }
-.titan__image {
-  width: 28vw;
-  height: 59vh;
-}
-.titan__div_general {
+.about-information__div_general {
   margin: 0 auto;
   position: absolute;
   z-index: 1;
@@ -65,36 +60,47 @@ body {
   -webkit-padding-start: 10vw;
           padding-inline-start: 10vw;
 }
-.titan__text {
-  -webkit-padding-start: 10vw;
-          padding-inline-start: 10vw;
+.galaxy__img{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    
+}
+.galaxy__image{
+    width: 65%;
+    border-radius: 20%;
+    box-shadow: 1px 1px 60px 40px;
+}
+.about-information__text {
   color: var(--title_Color);
   gap: 20px;
+  width: 50rem;
 }
-.titan__mini_rectangle {
-  font-weight: bold;
-  color: var(--title_Color);
-  -webkit-margin-start: 32%;
-          margin-inline-start: 32%;
-}
-.titan__title {
+.about-information__title {
   font-family: "Bellefair", serif;
   font-size: 4rem;
   color: var(--title_Color);
   margin: 0 auto;
 }
-.titan__textContent {
+.about-information__textContent {
   font-family: "Barlow", sans-serif;
   line-height: 40px;
   font-size: 1.2rem;
+  width: 80%;
   color: var(--text_Color);
 }
-.titan__rectangle {
-  color: var(--title_Color);
-}
-.titan__numbers {
-  font-family: "Bellefair", serif;
-  display: flex;
-  gap: 200px;
+.about-information__second-section {
   font-size: 2rem;
-}/*# sourceMappingURL=titan.css.map */
+}
+
+h2{
+    width: 60%;
+    font-family: "Barlow", sans-serif;
+    font-size: 2rem;
+    margin-top: 6rem;
+}
+.about-information__paragraph{
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--text_Color);
+}
