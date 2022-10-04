@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bellefair&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap');
+
+:root{
+    --title_Color: #FFFFFF;
+    --text_Color: #D0D6F9;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    z-index: -1;
+}
+
+
+.nav{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    width: 100vw;
+    height: 12vh;
+    &__logo{
+      
+      padding-inline-start: 5%;
+      align-self: center;
+      width: 8vw;
+    }
+    &__div{
+     background-color: rgba(255, 255, 255, 0.04);
+     backdrop-filter: blur(40.7742px);
+     width: 55vw;
+    }
+    &__line{
+      z-index: 2;
+      position: absolute;
+      align-self: center;
+      margin-inline-start: 350px;
+      height: 2px; 
+      width: 750px;
+      background-color: #FFFFFF;
+      opacity: 0.25;
+    }
+  }
+  
+  .background{
+    &__image{
+        width: 100vw;
+        height: 99.67vh;
+    }
+  }
+
+  form{
+    position: absolute;
+    font-size: 1.2rem;
+    color: var(--title_Color);
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-inline-start: 10vw;
+    margin-block-start: -80vh;
+    line-height: 8vh;
+    border-radius: 5px;
+    font-family: 'Barlow', sans-serif;
+  }
+
+input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    padding-inline-start: 2%;
+    border: 1px solid rgb(199, 224, 237);
+    background-color: transparent;
+    color: var(--text_Color);
+
+}
+
+#comments{
+    height: 15vh;
+}
+

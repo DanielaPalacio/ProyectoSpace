@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bellefair&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap");
+:root {
+  --title_Color: #FFFFFF;
+  --text_Color: #D0D6F9;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  z-index: -1;
+}
+
+.nav {
+  z-index: 1;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5vh;
+  width: 100vw;
+  height: 12vh;
+}
+
+.nav__logo {
+  -webkit-padding-start: 5%;
+          padding-inline-start: 5%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 8vw;
+}
+
+.nav__div {
+  background-color: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(40.7742px);
+          backdrop-filter: blur(40.7742px);
+  width: 55vw;
+}
+
+.nav__line {
+  z-index: 2;
+  position: absolute;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-margin-start: 350px;
+          margin-inline-start: 350px;
+  height: 2px;
+  width: 750px;
+  background-color: #FFFFFF;
+  opacity: 0.25;
+}
+
+.background__image {
+  width: 100vw;
+  height: 99.67vh;
+}
+
+form {
+  position: absolute;
+  font-size: 1.2rem;
+  color: var(--title_Color);
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-margin-start: 10vw;
+          margin-inline-start: 10vw;
+  -webkit-margin-before: -80vh;
+          margin-block-start: -80vh;
+  line-height: 8vh;
+  border-radius: 5px;
+  font-family: 'Barlow', sans-serif;
+}
+
+input {
+  width: 20vw;
+  height: 5vh;
+  border-radius: 10px;
+  border-color: #FFFFFF;
+  -webkit-padding-start: 2%;
+          padding-inline-start: 2%;
+  border: 1px solid #c7e0ed;
+  background-color: transparent;
+  color: var(--text_Color);
+}
+
+#comments {
+  height: 15vh;
+}
+/*# sourceMappingURL=contact.css.map */
