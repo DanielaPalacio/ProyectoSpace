@@ -12,7 +12,9 @@
     background-image: url("/root/img/background-home-desktop.jpg");
     color: white;
     background-size:cover;
+    overflow: hidden;
 }
+
 .icon{
     width: 40px;
     height: 40px;
@@ -61,18 +63,17 @@ a{
 #section-container{
     display: flex;
     flex-direction: column;
-    margin-top: 13rem;
     margin-left: 10rem;
 }
 
 .first-paragraph{
     font-size: 30px;
     font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 12rem;
 }
 
 h1{
     font-size: 130px;
-    margin-bottom: 0.5rem;
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     color: white;

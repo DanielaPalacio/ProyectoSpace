@@ -12,6 +12,7 @@ body {
   box-sizing: border-box;
   font-size: 62.5%;
   z-index: -1;
+  overflow: hidden;
 }
 
 .nav {
@@ -19,10 +20,6 @@ body {
   position: absolute;
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin-top: 5vh;
   width: 100vw;
   height: 12vh;
@@ -51,15 +48,15 @@ body {
   opacity: 0.25;
 }
 
-.moon__background {
+.mars__background {
   width: 100vw;
-  height: 99.69vh;
+  height: 100vh;
 }
-.moon__image {
+.mars__image {
   width: 28vw;
   height: 59vh;
 }
-.moon__div_general {
+.mars__div_general {
   margin: 0 auto;
   position: absolute;
   z-index: 1;
@@ -69,37 +66,35 @@ body {
   -webkit-padding-start: 10vw;
           padding-inline-start: 10vw;
 }
-.moon__text {
+.mars__text {
   -webkit-padding-start: 10vw;
           padding-inline-start: 10vw;
   color: var(--title_Color);
   gap: 20px;
 }
-.moon__mini_rectangle {
+.mars__mini_rectangle {
   font-weight: bold;
   color: var(--title_Color);
+  margin-left: 3rem;
 }
-.moon__title {
-
+.mars__title {
   font-family: "Bellefair", serif;
-  font-size: 6rem;
-  font-family: 'Bellefair', serif;
   font-size: 4rem;
   color: var(--title_Color);
   margin: 0 auto;
 }
-.moon__textContent {
+.mars__textContent {
   font-family: "Barlow", sans-serif;
   line-height: 40px;
   font-size: 1.2rem;
   color: var(--text_Color);
 }
-.moon__rectangle {
+.mars__rectangle {
   color: var(--title_Color);
 }
-.moon__numbers {
+.mars__numbers {
   font-family: "Bellefair", serif;
   display: flex;
   gap: 200px;
   font-size: 2rem;
-}/*# sourceMappingURL=moon.css.map */
+}/*# sourceMappingURL=mars.css.map */
