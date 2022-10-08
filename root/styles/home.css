@@ -20,47 +20,82 @@
     height: 40px;
     display: inline;
     position: relative;
-    top: 67px;
-    left:-520px;
+    top: 75px;
+    left: 50px;
     border-radius: 25px;
 }
+
+.line:before{
+    content: "";
+    height: 1.5px;
+    width: 45%;
+    position: absolute;
+    background-color: rgba(152, 150, 150, 0.397);
+    margin-left: 6.5%;
+    top: 92px;
+    z-index: 2;
+}
+
 .home-header {
     display: flex;
     justify-content:flex-end;
 }
 
-a{
-    text-decoration: none;
-    color:white;
-    margin-left: 5rem;
+#container{
+    margin:auto;
+    width: 48vw;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 20px;
     font-weight: bold;
-}
-
-.links-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: 1.5rem;
-    margin-top: 3rem;
-    gap: 3px; 
+    margin-top: 60px;
+    margin-right: 0px;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(81.5485px);
-    width:56%;
 }
 
-.links-container:before{
-    content: "";
-    height: 2px;
-    width: 62%;
-    position: absolute;
-    background-color: rgba(152, 150, 150, 0.397);
-    margin-left: -62%;
-    bottom: 34px;
+.nav{
+    display: flex;
+    justify-content: space-around;
 }
+
+a{
+    height: 65px;
+    text-align: center;
+    font-size: 22px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 18px 5px;
+    display: block;
+}
+
+.nav li a:hover{
+    background: rgba(255, 255, 255, 0.244);
+    backdrop-filter: blur(81.5485px);
+}
+.nav > li{
+    float: left;
+    width: 25%;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+     display: block;
+}
+
 
 #section-container{
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
     margin-left: 10rem;
@@ -80,7 +115,7 @@ h1{
 }
 
 .second-paragraph{
-    font-size: 13px;
+    font-size: 17.6px;
     width: 27%;
     text-align: justify;
     font-family: 'Barlow', sans-serif;
@@ -93,8 +128,8 @@ h1{
     display: inline;
     position: relative;
     border-radius: 100px;
-    top: -220px;
-    left: 930px;
+    top: -170px;
+    left: 67.5%;
     font-family: 'Bellefair', serif;
     font-size: 20px;
     font-weight: 50%;

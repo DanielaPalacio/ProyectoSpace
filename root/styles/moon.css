@@ -19,10 +19,6 @@ body {
   position: absolute;
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin-top: 5vh;
   width: 100vw;
   height: 12vh;
@@ -80,10 +76,7 @@ body {
   color: var(--title_Color);
 }
 .moon__title {
-
   font-family: "Bellefair", serif;
-  font-size: 6rem;
-  font-family: 'Bellefair', serif;
   font-size: 4rem;
   color: var(--title_Color);
   margin: 0 auto;
