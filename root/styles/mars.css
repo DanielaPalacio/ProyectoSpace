@@ -6,59 +6,101 @@
   --text_Color: #D0D6F9;
 }
 
-body {
-  margin: 0;
+
+
+*{
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-size: 62.5%;
-  z-index: -1;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#body{
+  background-image: url("/root/img/background-home-desktop.jpg");
+  color: white;
+  background-size:cover;
   overflow: hidden;
 }
 
-.nav {
+.icon{
+  width: 40px;
+  height: 40px;
+  display: inline;
+  position: relative;
+  top: 75px;
+  left: 50px;
+  border-radius: 25px;
+}
+
+.line:before{
+  z-index: 2;
+  content: "";
+  height: 1.5px;
+  width: 30%;
+  position: absolute;
+  background-color: rgba(152, 150, 150, 0.397);
+  margin-left: 20%;
+  top: 92px;
+}
+
+.home-header {
+  width: 100vw;
   z-index: 1;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 5vh;
-  width: 100vw;
-  height: 12vh;
 }
 
-.nav__logo {
-  -webkit-padding-start: 5%;
-          padding-inline-start: 5%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  width: 3%;
+#container{
+  margin:auto;
+  width: 48vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-right: 0px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
 }
 
-.nav__div {
-  background-color: rgba(255, 255, 255, 0.04);
-  -webkit-backdrop-filter: blur(40.7742px);
-          backdrop-filter: blur(40.7742px);
-  width: 55vw;
+.nav{
+  display: flex;
+  justify-content: space-around;
 }
 
-.nav__line {
-  z-index: 2;
+a{
+  height: 65px;
+  text-align: center;
+  font-size: 22px;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+.nav li a{
+  color: white;
+  text-decoration: none;
+  padding: 18px 5px;
+  display: block;
+}
+
+.nav li a:hover{
+  background: rgba(255, 255, 255, 0.244);
+  backdrop-filter: blur(81.5485px);
+}
+.nav > li{
+  float: left;
+  width: 25%;
+}
+
+.nav li ul{
+  display: none;
   position: absolute;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  -webkit-margin-start: 350px;
-          margin-inline-start: 350px;
-  height: 2px;
-  width: 750px;
-  background-color: #FFFFFF;
-  opacity: 0.25;
+  min-width: 140px;
 }
+
+.nav li:hover > ul{
+   display: block;
+}
+
 
 .mars__background {
   width: 100vw;

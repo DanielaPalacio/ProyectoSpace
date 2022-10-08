@@ -9,15 +9,27 @@
   <link rel="stylesheet" href="./styles/mars.css">
 
 </head>
-<body>
+<body id="body">
 
   <main>
-    <header class="nav">
-      <img class="nav__logo" src="./img/logo.svg" alt="">
-      <div class="nav__line"></div>
-      <div class="nav__div"></div>
-      
-    </header>
+    <header class="home-header">
+      <img class ="icon" src="./img/icon-start.jpg" alt=""> 
+      <div class="line"></div> 
+          <div id="container">
+          <ul class="nav">
+              <li><a href="./home.html">HOME</a></li>
+              <li><a href="./about.html">ABOUT US</a></li>
+              <li><a href="">SOLAR SYSTEM</a>
+                  <ul>
+                      <li><a href="./moon.html">MOOM</a></li>
+                      <li><a href="./mars.html">MARS</a></li>
+                      <li><a href="./titan.html">TITAN</a></li>
+                  </ul>
+              </li>
+              <li><a href="./contact.html">CONTACT US</a></li>
+          </ul>
+      </div>
+  </header> 
   
     <div class="mars">
       <img class="mars__background" src="./img/background-destination-desktop.jpg" alt="">
