@@ -34,7 +34,7 @@ body{
     align-self: center;
   }
   &__div{
-    padding-block-start: 23px; 
+    padding-block-start: 6px; 
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: bold;
     background: rgba(255, 255, 255, 0.04);
@@ -45,9 +45,9 @@ body{
     z-index: 2;
     position: absolute;
     align-self: center;
-    margin-inline-start: 350px;
+    margin-inline-start: 250px;
     height: 2px;
-    width: 600px;
+    width: 400px;
     background-color: #FFFFFF;
     opacity: 0.25;
   }

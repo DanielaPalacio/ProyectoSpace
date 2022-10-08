@@ -41,8 +41,8 @@ body {
 }
 
 .header__div {
-  -webkit-padding-before: 23px;
-          padding-block-start: 23px;
+  -webkit-padding-before: 6px;
+          padding-block-start: 6px;
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: bold;
   background: rgba(255, 255, 255, 0.04);
@@ -57,10 +57,10 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  -webkit-margin-start: 350px;
-          margin-inline-start: 350px;
+  -webkit-margin-start: 250px;
+          margin-inline-start: 250px;
   height: 2px;
-  width: 600px;
+  width: 400px;
   background-color: #FFFFFF;
   opacity: 0.25;
 }
