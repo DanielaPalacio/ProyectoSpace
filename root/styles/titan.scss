@@ -3,51 +3,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bellefair&family=Open+Sans:wght@300;400&family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap');
 
 
+
 :root{
     --title_Color: #FFFFFF;
     --text_Color: #D0D6F9;
 }
 
-body{
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+body{
     font-size: 62.5%;
     z-index: -1;
 }
 
-
-.nav{
+.header{
   z-index: 1;
   position: absolute;
   display: flex;
   justify-content: space-between;
-
   margin-top: 5vh;
   width: 100vw;
-
   height: 12vh;
   &__logo{
-
     padding-inline-start: 5%;
     align-self: center;
-    width: 3%;
   }
   &__div{
-   background-color: rgba(255, 255, 255, 0.04);
-   backdrop-filter: blur(40.7742px);
-   width: 55vw;
+    padding-block-start: 6px; 
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    width: 55vw;
   }
   &__line{
     z-index: 2;
     position: absolute;
     align-self: center;
-    margin-inline-start: 350px;
+    margin-inline-start: 250px;
     height: 2px;
-    width: 750px;
+    width: 400px;
     background-color: #FFFFFF;
     opacity: 0.25;
   }
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+a{
+    height: 65px;
+    text-align: center;
+    font-size: 22px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 18px 5px;
+    display: block;
+}
+
+.nav li a:hover{
+    background: rgba(255, 255, 255, 0.244);
+    backdrop-filter: blur(81.5485px);
+}
+.nav > li{
+    float: left;
+    width: 25%;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+     display: block;
 }
 
 .titan{
